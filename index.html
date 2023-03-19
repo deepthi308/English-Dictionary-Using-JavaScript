@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>English Dictionary</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">English Dictionary</h1>
+        <input type="text" placeholder="Search for the word here..." class="input">
+        <p class="info-text" id="info">
+            Type a word and press enter
+        </p>
+        <button id="button">Reload</button>
+    <div class="loading">Loading&#8230;</div>
+        <p class="info-text" id="error"></p>
+        <div class="meaning-container" id="mean">
+            <p>Word Title:<span class="title"></span></p>
+            <p>Meaning:<span class="meaning"></span></p>
+            <audio controls id="audio"></audio>
+        </div>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
